@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manoj Insurance Advisor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial; margin: 0; }
+    header { background: #0a3d62; color: white; padding: 20px; text-align: center; }
+    section { padding: 20px; text-align: center; }
+    .btn {
+      background: green;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .services div {
+      margin: 10px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    footer { background: #0a3d62; color: white; padding: 10px; }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: green;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Manoj Reddy</h1>
+  <p>Insurance Advisor</p>
+</header>
+
+<section>
+  <h2>Secure Your Family’s Future</h2>
+  <p>Get the best insurance plans tailored for you</p>
+
+  <!-- Replace with your Google Form link -->
+  <a class="btn" href="YOUR_GOOGLE_FORM_LINK" target="_blank">Get Free Consultation</a>
+
+  <!-- Replace phone number -->
+  <a class="btn" href="https://wa.me/91XXXXXXXXXX">Chat on WhatsApp</a>
+</section>
+
+<section class="services">
+  <h2>Our Services</h2>
+  <div>Life Insurance</div>
+  <div>Health Insurance</div>
+  <div>Motor Insurance</div>
+  <div>Child Plans</div>
+  <div>Retirement Plans</div>
+</section>
+
+<footer>
+  <p>© 2026 Manoj Insurance Advisor</p>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX">💬</a>
+
+</body>
+</html>
