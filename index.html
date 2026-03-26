@@ -1,73 +1,138 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-  <title>Manoj Insurance Advisor</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: Arial; margin: 0; }
-    header { background: #0a3d62; color: white; padding: 20px; text-align: center; }
-    section { padding: 20px; text-align: center; }
-    .btn {
-      background: green;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manoj Insurance Advisor</title>  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f9;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0a3d62, #1e90ff);
       color: white;
-      padding: 12px 20px;
-      text-decoration: none;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .hero {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .hero p {
+      color: #555;
+    }
+
+    .btn {
       display: inline-block;
       margin: 10px;
-      border-radius: 5px;
+      padding: 12px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
     }
-    .services div {
-      margin: 10px;
+
+    .btn-green {
+      background: #28a745;
+    }
+
+    .btn-blue {
+      background: #007bff;
+    }
+
+    .services {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .services h2 {
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
       padding: 15px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    footer { background: #0a3d62; color: white; padding: 10px; }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .why {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
     .whatsapp {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      background: green;
+      background: #25D366;
       color: white;
       padding: 15px;
       border-radius: 50%;
+      font-size: 20px;
       text-decoration: none;
     }
-  </style>
-</head>
-
-<body>
-
-<header>
+  </style></head><body><header>
   <h1>Manoj Reddy</h1>
-  <p>Insurance Advisor</p>
-</header>
+  <p>Certified Insurance Advisor</p>
+</header><section class="hero">
+  <h2>Secure Your Family’s Future Today</h2>
+  <p>Best insurance plans tailored for your needs</p>  <!-- Replace your form link --><a class="btn btn-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSfqunnkt3WIHpgtfG5jb2F0FkwTNqJMUvKSXqmMHZ0TlB80PA/viewform?usp=header" target="_blank">Get Free Consultation</a>
 
-<section>
-  <h2>Secure Your Family’s Future</h2>
-  <p>Get the best insurance plans tailored for you</p>
+  <!-- Replace your number --><a class="btn btn-green" href="https://wa.me/91">Chat on WhatsApp</a>
 
-  <!-- Replace with your Google Form link -->
-  <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfqunnkt3WIHpgtfG5jb2F0FkwTNqJMUvKSXqmMHZ0TlB80PA/viewform?usp=publish-editor" target="_blank">Get Free Consultation</a>
-
-  <!-- Replace phone number -->
-  <a class="btn" href="https://wa.me/918919868256">Chat on WhatsApp</a>
-</section>
-
-<section class="services">
+</section><section class="services">
   <h2>Our Services</h2>
-  <div>Life Insurance</div>
-  <div>Health Insurance</div>
-  <div>Child Plans</div>
-  <div>Retirement Plans</div>
-</section>
-
-<footer>
+  <div class="cards">
+    <div class="card">Life Insurance</div>
+    <div class="card">Health Insurance</div>
+    <div class="card">Child Plans</div>
+    <div class="card">Retirement Plans</div>
+  </div>
+</section><section class="why">
+  <h2>Why Choose Me?</h2>
+  <p>✔ Trusted Advisor</p>
+  <p>✔ Personalized Plans</p>
+  <p>✔ Quick Support</p>
+</section><footer>
   <p>© 2026 Manoj Insurance Advisor</p>
-</footer>
-
-<!-- Floating WhatsApp -->
-<a class="whatsapp" href="https://wa.me/918919868256">💬</a>
+</footer><a class="whatsapp" href="https://wa.me/918186081009">💬</a>
 
 </body>
 </html>
