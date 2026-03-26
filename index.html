@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manoj Insurance Advisor</title><style>
+<title>Manoj Insurance Advisor</title><!-- Icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><style>
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -15,8 +15,9 @@ header {
   top: 0;
   background: linear-gradient(135deg, #0a3d62, #1e90ff);
   color: white;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
+  z-index: 1000;
 }
 
 .logo-box {
@@ -32,18 +33,24 @@ header {
 
 /* Hero */
 .hero {
-  padding: 40px 20px;
+  padding: 50px 20px;
   text-align: center;
+  animation: fadeIn 1s ease-in;
 }
 
 .hero h2 {
-  font-size: 26px;
+  font-size: 28px;
+  color: #222;
+}
+
+.hero p {
+  color: #555;
 }
 
 .btn {
   display: inline-block;
   margin: 10px;
-  padding: 12px 22px;
+  padding: 12px 25px;
   border-radius: 30px;
   text-decoration: none;
   color: white;
@@ -79,14 +86,23 @@ header {
   cursor: pointer;
 }
 
-/* 🔥 Hover effect */
+.card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
 .card:hover {
   transform: translateY(-10px) scale(1.05);
   background: linear-gradient(135deg, #007bff, #1e90ff);
   color: white;
 }
 
-/* Section */
+.card:hover i {
+  color: white;
+}
+
+/* Sections */
 .section {
   padding: 20px;
   text-align: center;
@@ -101,9 +117,15 @@ header {
 }
 
 .social a {
-  margin: 10px;
-  font-size: 22px;
-  text-decoration: none;
+  margin: 15px;
+  font-size: 28px;
+  color: #0a3d62;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: #007bff;
+  transform: scale(1.2);
 }
 
 /* Footer */
@@ -123,8 +145,14 @@ footer {
   color: white;
   padding: 15px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1;}
 }
 </style></head><body><header>
   <div class="logo-box">
@@ -140,27 +168,30 @@ footer {
 </section><section class="services">
   <h2>Our Services</h2>
   <div class="cards">
-    <div class="card">Life Insurance</div>
-    <div class="card">Health Insurance</div>
-    <div class="card">Child Plans</div>
-    <div class="card">Retirement Plans</div>
+    <div class="card"><i class="fas fa-shield-alt"></i><br>Life Insurance</div>
+    <div class="card"><i class="fas fa-heartbeat"></i><br>Health Insurance</div>
+    <div class="card"><i class="fas fa-car"></i><br>Motor Insurance</div>
+    <div class="card"><i class="fas fa-child"></i><br>Child Plans</div>
+    <div class="card"><i class="fas fa-user-clock"></i><br>Retirement Plans</div>
   </div>
 </section><section class="section">
   <h2>Why Choose Me?</h2>
   <p>✔ Trusted & Honest Advice</p>
-  <p>✔ Best Plans</p>
-  <p>✔ Quick Support</p>
+  <p>✔ Best Plans from Top Companies</p>
+  <p>✔ Quick Claim Support</p>
 </section><section class="section">
   <h2>Client Reviews</h2>
   <p>⭐ Very helpful advisor</p>
   <p>⭐ Best insurance guidance</p>
-</section><!-- 🔥 SOCIAL LINKS --><section class="social">
-  <h3>Connect with Me</h3>  <!-- Replace links --><a href="https://instagram.com/YOUR_USERNAME" target="_blank">📸 Instagram</a>
-<a href="mailto:yourmail@gmail.com">📧 Email</a>
-
+</section><!-- Social --><section class="social">
+  <h3>Connect with Me</h3>  <a href="https://instagram.com/YOUR_USERNAME" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>  <a href="mailto:yourmail@gmail.com">
+    <i class="fas fa-envelope"></i>
+  </a>
 </section><footer>
   <p>© 2026 Manoj Insurance Advisor</p>
-</footer><a class="whatsapp" href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20need%20insurance">💬</a>
-
-</body>
+</footer><a class="whatsapp" href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20need%20insurance">
+  <i class="fab fa-whatsapp"></i>
+</a></body>
 </html>
