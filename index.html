@@ -1,146 +1,158 @@
-     <!DOCTYPE html><html lang="en">
+         <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manoj Insurance Advisor</title>  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f6f9;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manoj Insurance Advisor</title><style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+}
 
-    header {
-      background: linear-gradient(135deg, #0a3d62, #1e90ff);
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(135deg, #0a3d62, #1e90ff);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
 
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-    }
+/* Hero */
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+}
 
-    header p {
-      margin-top: 10px;
-      font-size: 16px;
-    }
+.hero h2 {
+  font-size: 26px;
+  color: #222;
+}
 
-    .hero {
-      padding: 30px;
-      text-align: center;
-    }
+.hero p {
+  color: #555;
+}
 
-    .hero h2 {
-      font-size: 24px;
-      color: #333;
-    }
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
-    .hero p {
-      color: #555;
-    }
+.btn-blue {
+  background: #007bff;
+}
 
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 20px;
-      border-radius: 25px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-    }
+.btn-green {
+  background: #28a745;
+}
 
-    .btn-green {
-      background: #28a745;
-    }
+.btn:hover {
+  transform: scale(1.1);
+}
 
-    .btn-blue {
-      background: #007bff;
-    }
+/* Highlight */
+.highlight {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
 
-    .services {
-      padding: 20px;
-      text-align: center;
-    }
+.highlight p {
+  font-size: 16px;
+}
 
-    .services h2 {
-      margin-bottom: 20px;
-    }
+/* Services */
+.services {
+  padding: 20px;
+  text-align: center;
+}
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 15px;
-    }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
 
-    .card {
-      background: white;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
 
-    .card:hover {
-      transform: scale(1.05);
-    }
+.card:hover {
+  transform: translateY(-5px);
+}
 
-    .why {
-      background: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+/* Sections */
+.section {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  margin-top: 10px;
+}
 
-    footer {
-      background: #0a3d62;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
+/* Footer */
+footer {
+  background: #0a3d62;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
 
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: white;
-      padding: 15px;
-      border-radius: 50%;
-      font-size: 20px;
-      text-decoration: none;
-    }
-  </style></head><body><header>
-  <h1>Manoj Reddy</h1>
-  <p>Certified Insurance Advisor</p>
+/* WhatsApp Floating */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+}
+</style></head><body><header>
+  <h2>Manoj Reddy | Insurance Advisor</h2>
 </header><section class="hero">
-  <h2>Protect Your Family with the Right Insurance Plan</h2>
-  <p>Get the best insurance plans tailored for your needs</p>  <!-- 🔗 Replace your Google Form link --><a class="btn btn-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSfqunnkt3WIHpgtfG5jb2F0FkwTNqJMUvKSXqmMHZ0TlB80PA/viewform?usp=header" target="_blank">Get Free Consultation</a>
+  <h2>Secure Your Family’s Future Today</h2>
+  <p>Best insurance plans tailored for your needs</p><a class="btn btn-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSfqunnkt3WIHpgtfG5jb2F0FkwTNqJMUvKSXqmMHZ0TlB80PA/viewform?usp=header" target="_blank">Get Free Consultation</a>
+<a class="btn btn-green" href="https://wa.me/918919868256?text=Hi%20I%20need%20insurance">WhatsApp</a>
+<a class="btn btn-blue" href="tel:918919868256">Call Now</a>
 
-  <!-- 📲 Replace your number --><a class="btn btn-green" href="https://wa.me/918919868256?text=Hi%20I%20need%20insurance%20details">Chat on WhatsApp</a>
-
-  <!-- 📞 Call button --><a class="btn btn-blue" href="tel:918919868256">Call Now</a>
-
+</section><section class="highlight">
+  <p>✔ Trusted Advisor | ✔ Quick Claim Support | ✔ Best Plans</p>
 </section><section class="services">
   <h2>Our Services</h2>
   <div class="cards">
     <div class="card">Life Insurance</div>
     <div class="card">Health Insurance</div>
+    <div class="card">Motor Insurance</div>
     <div class="card">Child Plans</div>
     <div class="card">Retirement Plans</div>
   </div>
-</section><section class="why">
+</section><section class="section">
   <h2>Why Choose Me?</h2>
-  <p>✔ Trusted & Honest Advice</p>
-  <p>✔ Best Plans from Top Companies</p>
-  <p>✔ Quick Claim Support</p>
-</section><section class="why">
-  <h2>What My Clients Say</h2>
-  <p>⭐ “Very helpful and explained clearly”</p>
-  <p>⭐ “Got best policy with good support”</p>
-  <p>⭐ “Highly recommended advisor”</p>
+  <p>✔ Honest Advice</p>
+  <p>✔ Personalized Plans</p>
+  <p>✔ Fast Support</p>
+</section><section class="section">
+  <h2>Client Reviews</h2>
+  <p>⭐ “Very helpful and friendly advisor”</p>
+  <p>⭐ “Best guidance for insurance plans”</p>
 </section><footer>
   <p>© 2026 Manoj Insurance Advisor</p>
-</footer><!-- Floating WhatsApp --><a class="whatsapp" href="https://wa.me/918186081009?text=Hi%20I%20need%20insurance">💬</a>
+</footer><a class="whatsapp" href="https://wa.me/918919868256?text=Hi%20I%20need%20insurance">💬</a>
 
 </body>
-</html> 
+</html>
